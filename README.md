@@ -1,9 +1,9 @@
 # 🧠 AI-First CRM HCP Module
 
-An AI-powered Customer Relationship Management (CRM) system designed for **life-science field representatives** to 
+An AI-powered Customer Relationship Management (CRM) system designed for **life-science field representatives** to
 log and manage interactions with Healthcare Professionals (HCPs).
 
-This project combines a **structured form-based interface** with an **AI-driven conversational assistant** 
+This project combines a **structured form-based interface** with an **AI-driven conversational assistant**
 powered by LangGraph and Groq LLMs.
 
 ---
@@ -15,15 +15,15 @@ powered by LangGraph and Groq LLMs.
 * Structured form to log HCP interactions
 * Fields include:
 
-  * HCP Name
-  * Interaction Type
-  * Date
-  * Topics Discussed
-  * Materials Shared
-  * Samples Distributed
-  * Sentiment
-  * Outcome
-  * Follow-up Action
+* HCP Name
+* Interaction Type
+* Date
+* Topics Discussed
+* Materials Shared
+* Samples Distributed
+* Sentiment
+* Outcome
+* Follow-up Action
 
 ---
 
@@ -33,13 +33,13 @@ powered by LangGraph and Groq LLMs.
 
 * Example:
 
-  > “Met Dr. Smith and discussed Product X. Positive sentiment and shared brochures.”
+> “Met Dr. Smith and discussed Product X. Positive sentiment and shared brochures.”
 
 * AI automatically:
 
-  * Extracts structured data
-  * Populates the form
-  * Generates summaries
+* Extracts structured data
+* Populates the form
+* Generates summaries
 
 ---
 
@@ -49,25 +49,25 @@ Implements a multi-tool AI agent with dynamic intent routing.
 
 #### Tools implemented:
 
-1. **Log Interaction Tool**
+1. ** Log Interaction Tool**
 
-   * Extracts structured CRM data from text
+* Extracts structured CRM data from text
 
-2. **Edit Interaction Tool**
+2. ** Edit Interaction Tool**
 
-   * Updates existing interactions in the database
+* Updates existing interactions in the database
 
-3. **Suggest Follow-up Tool**
+3. ** Suggest Follow-up Tool**
 
-   * Recommends next actions based on interaction
+* Recommends next actions based on interaction
 
-4. **HCP Lookup Tool**
+4. ** HCP Lookup Tool**
 
-   * Extracts HCP-related queries
+* Extracts HCP-related queries
 
-5. **Material Recommendation Tool**
+5. ** Material Recommendation Tool**
 
-   * Suggests relevant materials (brochures, studies)
+* Suggests relevant materials (brochures, studies)
 
 ---
 
@@ -75,8 +75,8 @@ Implements a multi-tool AI agent with dynamic intent routing.
 
 * Interaction list updates instantly after:
 
-  * New entry
-  * AI-based edits
+* New entry
+* AI-based edits
 
 ---
 
@@ -255,7 +255,7 @@ Recommend materials for Product X
 
 | Variable     | Description             |
 | ------------ | ----------------------- |
-| GROQ_API_KEY | API key for Groq LLM    |
+| GROQ_API_KEY | This is the API key used for Groq's Large Language Model |
 | DATABASE_URL | MySQL connection string |
 
 ---
