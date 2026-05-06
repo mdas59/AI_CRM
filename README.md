@@ -251,6 +251,14 @@ Recommend materials for Product X
 
 ---
 
+### 5. HCP Look Up
+
+```text
+Look up Dr. Smith profile
+```
+
+---
+
 ## 🔐 Environment Variables
 
 | Variable     | Description             |
